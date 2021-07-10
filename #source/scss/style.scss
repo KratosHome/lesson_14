@@ -1,0 +1,16 @@
+.menu {
+	list-style: none;
+	li {
+		width: 100px;
+		height: 30px;
+		margin: 10px;
+	}
+	a {
+		display: block;
+		background-color: black;
+
+		color: #fff;
+		text-decoration: none;
+		text-align: center;
+	}
+}
