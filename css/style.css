@@ -69,7 +69,7 @@ body {
 	text-decoration: none;
 	color: #2c71b8;
 	font-size: 21px;
-	transition: background-color 0.5s, transform 0.5s;
+	transition: background-color 0.3s, transform 0.3s;
 }
 .cabmenu,
 .menu li:hover a {
@@ -89,7 +89,7 @@ body {
 	opacity: 0;
 	transform-origin: 0% 0%;
 	transform: rotateX(-90deg);
-	transition: 0.4s linear;
+	transition: 0.3s linear;
 }
 .cabmenu li {
 	clear: both;
@@ -100,7 +100,7 @@ body {
 	display: block;
 	color: white;
 	padding: 10px;
-	transition: background-color 0.5s, transform 0.5s;
+	transition: background-color 0.3s, transform 0.3s;
 }
 .cabmenu li a:hover {
 	color: #2c71b8;
@@ -165,6 +165,51 @@ body {
 .filter {
 	border: 1px solid white;
 	height: 840px;
+}
+.filter_conteiner {
+	margin-bottom: 80px;
+}
+.filter-title {
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 30px 10px 20px 20px;
+}
+.characteristics {
+	color: white;
+	margin: 0px 0px 7px 20px;
+	font-size: 20px;
+}
+input[type="checkbox"] {
+	display: none;
+}
+label::before {
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border: 1px solid white;
+	margin-right: 13px;
+	transition: 0.3s;
+}
+input[type="checkbox"]:checked + label::before {
+	background-color: white;
+	transition: 0.3s;
+}
+input[type="checkbox"]:hover + label:hover {
+	color: red;
+	transition: 0.3s;
+}
+.buttom_more_options {
+	border: none;
+	color: white;
+	font-size: 20px;
+	background: transparent;
+	margin: 0px 0px 0px 20px;
+}
+.buttom_more_options:hover {
+	color: red;
+	transition: 0.3s;
 }
 .breadcramds {
 	font-size: 13px;
@@ -234,7 +279,7 @@ body {
 	background-position: center;
 	border: 1px solid #2c71b8;
 	background-size: 17px;
-	transition: background-color 0.5s, transform 0.5s;
+	transition: background-color 0.3s;
 }
 .like {
 	position: absolute;
@@ -247,7 +292,7 @@ body {
 	background-position: center;
 	border: 1px solid #2c71b8;
 	background-size: 17px;
-	transition: background-color 0.5s, transform 0.5s;
+	transition: background-color 0.3s;
 }
 .zoom:hover {
 	background-image: url(../img/zoowwhite.png);
@@ -295,7 +340,7 @@ body {
 	border: 1px solid white;
 	background-color: #091625;
 	font-size: 21px;
-	transition: background-color 0.5s, transform 0.5s;
+	transition: background-color 0.3s;
 }
 .btn:hover {
 	background-color: #2c71b8;
